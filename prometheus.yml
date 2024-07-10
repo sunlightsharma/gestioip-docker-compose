@@ -19,6 +19,6 @@ scrape_configs:
   # Monitor Node Exporter
   - job_name: 'node-exporter'
     static_configs:
-      - targets: ['node-exporter:9200']
+      - targets: ['node-exporter:9101']
 
 
